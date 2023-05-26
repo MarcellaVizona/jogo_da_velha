@@ -8,10 +8,11 @@ body{
     width: 100px;
     height: 100px;
     margin: 5px;
-    border:  1px  solid rgb(0, 0, 0);
+    border:  2px  solid rgb(0, 0, 0);
     border-radius: 27px;
     font-size: 45px;
     cursor: pointer;
+    background-color:white;
 }
 
 h1{
