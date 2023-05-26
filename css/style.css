@@ -1,12 +1,27 @@
 main{
     text-align: center;
 }
+body{
+    background-color: rgb(207, 19, 101);
+}
 .tabuleiro div input{
     width: 100px;
     height: 100px;
     margin: 5px;
     border:  1px  solid rgb(0, 0, 0);
-    border-radius: 6px;
-    font-size: 30px;
+    border-radius: 27px;
+    font-size: 45px;
     cursor: pointer;
+}
+
+h1{
+    font-size: 45px;
+    color: white;
+    font-family:Lucida Handwriting;
+    margin-bottom: 1px;
+}
+
+hr{
+    width: 70%;
+    margin-bottom: 3px;
 }
