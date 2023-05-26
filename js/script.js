@@ -319,5 +319,6 @@ function VerificarGanhador() {
     lblJogadas.innerText='';
    
 }
+    lblJogadas.innerText = '('+ (jogada+1) + 'ª jogada)';
 }   
 
