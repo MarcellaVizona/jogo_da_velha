@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
                  <!--Java-->
     <script src="js/script.js"></script>
+    <link rel="icon" href="/img/icone.png">
     <title>Jogo da Velha </title>
 
 </head>
@@ -17,7 +18,7 @@
         <saction>
             <h1>Jogo da Velha</h1>
         </saction>
-               <br><br>
+               <br>
                <hr>
                <br>
         <saction class="tabuleiro">
@@ -38,12 +39,17 @@
             </div>
         </saction>
 
-        <saction>
+        <section>
             <h2>
                 <span id="lblJogador">Jogador X </span>
                 <span id="lblJogadas">(1ª Jogada)</span>
             </h2>
-        </saction>
+          
+        </section>
+        
+        <div class="btn">
+            <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()">
+        </div>
         
         
     </main>

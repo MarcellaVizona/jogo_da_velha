@@ -4,25 +4,55 @@ main{
 body{
     background-color: rgb(207, 19, 101);
 }
+
+.tabuleiro{
+    text-align: center;
+}
+
 .tabuleiro div input{
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     margin: 5px;
-    border:  2px  solid rgb(0, 0, 0);
+    border:  3px  solid rgb(0, 0, 0);
     border-radius: 27px;
-    font-size: 45px;
+    font-size: 50px;
     cursor: pointer;
     background-color:white;
+    font-family:Lucida Handwriting;
 }
 
 h1{
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     font-family:Lucida Handwriting;
-    margin-bottom: 1px;
+    margin-top: 30px;
+    
 }
 
 hr{
     width: 70%;
-    margin-bottom: 3px;
+    margin-top: 5px;
+
+}
+
+h2{
+    color: white;
+    margin-top: 25px;
+    font-size: 25px;
+    font-family:Lucida Handwriting;
+}
+
+#btnReiniciar{
+    border-radius: 10px;
+    background-color: #fffefe;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 9px 28px;
+    font-family: Lucida Handwriting ;
+    font-size: 35;
+  
+
+}
+
+.btn{
+    text-align: right;
 }
